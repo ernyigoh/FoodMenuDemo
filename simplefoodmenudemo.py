@@ -6,7 +6,7 @@ if 'hasFood' not in st.session_state:
     st.session_state.hasFood = 0
 
 
-st.header("Welcome to ABC Simple Food Menu Demo")
+st.header("Welcome to Ern Yi's Simple Food Menu Demo")
 
 readme = st.checkbox("readme first")
 
@@ -18,7 +18,7 @@ if readme:
 
     st.write ("For more info, please contact:")
 
-    st.write("<a href='https://www.linkedin.com/in/yong-poh-yu/'>Dr. Yong Poh Yu </a>", unsafe_allow_html=True)
+    st.write("<a href='https://www.linkedin.com/in/ern-yi-goh-040259194/'>Goh Ern Yi </a>", unsafe_allow_html=True)
 
 st.write("Choose an option from the radio button on the side bar to continue.")
 
